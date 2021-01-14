@@ -1,6 +1,8 @@
 # New video tutorials are available at https://www.microprediction.com/python-1 to help you
 # get started creating streams (see the 4th module in particular)
 
+# This example is kept very simple. 
+
 import logging
 import requests
 import urllib
