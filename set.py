@@ -10,8 +10,6 @@ import random
 from datetime import datetime
 from pprint import  pprint
 from microprediction import MicroWriter
-from microprediction.config_private import TRAFFIC_WRITE_KEY_13
-from apscheduler.schedulers.blocking import BlockingScheduler
 import os
 
 write_key = os.environ.get('WRITE_KEY')    # GitHub action needs to set env variable. You need to create a GitHub secret called WRITE_KEY
