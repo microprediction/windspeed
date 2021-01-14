@@ -2,7 +2,7 @@ name: testing wind
 
 on:
   schedule:
-    - cron:  '*/15 * * * *'
+    - cron:  '*/20 * * * *'
 
 defaults:
   run:
