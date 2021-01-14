@@ -86,5 +86,5 @@ def fetch_data(locations):
 
 if __name__=='__main__':
     for locations in [LOCATIONS_1,LOCATIONS_2]:
-        names, values = fetch_data(locations=LOCATIONS_1)
+        names, values = fetch_data(locations=locations)
         res = mw.cset(names=names, values=values)
