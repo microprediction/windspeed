@@ -1,4 +1,4 @@
-name: testing wind 
+name: testing seattle 
 
 on:
   schedule:
@@ -32,4 +32,4 @@ jobs:
         env:
           WRITE_KEY: ${{ secrets.WRITE_KEY }}
         run: |
-          python set.py
+          python seattle.py
