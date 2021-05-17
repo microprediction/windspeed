@@ -1,4 +1,4 @@
 # windspeed
 windspeed prediction
 
-A simple example. 
+A simple example that works 
